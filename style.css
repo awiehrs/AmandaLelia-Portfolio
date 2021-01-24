@@ -1,0 +1,104 @@
+
+body {
+    background-color: #ececec;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nameHead {
+    font-family: 'Shrikhand', cursive;
+    color: #00a518;
+    font-size: 4vh;
+    text-shadow: 1px 1px #292929;
+}
+
+.navbar {
+    padding-bottom: 0;
+}
+
+.nav-link {
+    font-family: 'Raleway', sans-serif;
+}
+
+.frontImg {
+    zoom: 2;  
+    display: block;
+    margin: auto;
+    height: auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    
+}
+
+.boxDiv {
+    padding-top: 0;
+    margin-top: -30px;
+}
+
+.aboutDiv {
+    margin-right: 5px;
+    background: #d7d7d7;
+    max-width: 83%;
+}
+
+.aboutContent {
+    display: none;
+    width: 100%;
+}
+
+.myTitle {
+    margin-top: 7px;
+    margin-left: -2px;
+    font-family: 'Abril Fatface', cursive;
+    color: #8e6b70;
+    font-size: 2vh;
+}
+
+.photoDiv {
+    margin-right: 5px;
+    background: #d6d6d6;
+    max-width: 83%;
+}
+
+.photoTxt {
+    font-family: 'Abril Fatface', cursive;
+    color: #4f748b;
+    font-size: 2.1vh;
+}
+
+.titlePosition {
+    padding-top: 20px;
+}
+
+.photoContent {
+    display: none;
+}
+
+.codeDiv {
+    margin-right: 5px;
+    background: #d7d7d7;
+    max-width: 83%;
+}
+
+.codeTxt {
+    font-family: 'Abril Fatface', cursive;
+    color: #9a432e;
+    font-size: 2.1vh;
+}
+
+.codeContent {
+    display: none;
+}
+
+.contactContent {
+    display: none;
+    max-width: 63%;
+    background-image: url("assets/images/contactBg-2.png");
+    background-size: cover;
+    height: 100%;
+}
+
+.spaceHolder{
+    min-height: 18vh;
+}
+
