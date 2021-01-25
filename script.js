@@ -1,9 +1,12 @@
 $(document).ready(function() {
+    //Variables
     var aboutLink = $(".aboutBtn")
     var photoLink = $(".photoBtn")
     var codeLink = $(".codeBtn")
     var nameLink = $(".nameHead")
     var contactLink = $(".contactBtn")
+
+    //functions for making different sections appear
 
     function aboutInit(e) {
         e.preventDefault();
@@ -45,11 +48,6 @@ $(document).ready(function() {
         $(".codeDiv").removeClass("text-center");
         $(".codeTxt").removeClass("titlePosition");
     };
-    
-    function resetLanding(e) {
-        e.preventDefault();
-        location.reload();
-    };
 
     function contactInit(e) {
         e.preventDefault();
@@ -60,6 +58,14 @@ $(document).ready(function() {
         $(".contactContent").show(2000);
 
     }
+
+    //function for returning to landing page
+    function resetLanding(e) {
+        e.preventDefault();
+        location.reload();
+    };
+
+    //callbacks for functions
   
     $(aboutLink).click(aboutInit);
     $(photoLink).click(photoInit);
