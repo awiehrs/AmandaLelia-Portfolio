@@ -53,25 +53,25 @@
     <div class="container-fluid boxDiv">
         <div class="row justify-content-center">
             <!--About Me Content -->
-            <div class="col-lg-2 col-md-2 col-sm-2 aboutDiv">
+            <div class="col-lg-2 col-md-2 col-sm-2 text-center aboutDiv">
                 <p class="myTitle">Web Development &<br>Creative Design</p>
                 <div class="aboutContent">
                     <div class="row">
-                        <div class="col-4 text-center">
+                        <div class="col-lg-4 col-sm-12 text-center">
                             <p><img src="assets/images/horseicon.png" alt="icon of horse"><br>
                             <b>Passion & Commitment</b><br>
                             As an artist based out of Richmond, Virginia, I have a lot to be grateful for. The beautiful scenery, the kind community, and the variety of activities available are all the basis of my interests. I blend my love for the natural world, traditional art, and creative solutions in my work and I pride myself on my commitment to elegant products.
                             </p>
                         </div>
-                        <div class="col-4 text-center">
+                        <div class="col-lg-4 col-sm-12 text-center">
                             <p><img src="assets/images/shuttericon.png" alt="icon of camera shutter"><br>
                             <b>Experience & Learning</b><br>
                             I hold a Bachelor's Degree from Emory & Henry College in Digital & Analog Photography, with a minor in History. I enjoy working with film cameras and developing prints, however I am also adept in digital software and enjoy creating regardless of the medium.<br>I am currently enrolled in a Coding Bootcamp through University of Richmond and hope to graduate in spring of 2021. My goal is to utilize prior experience as a creative to help others succeed with their vision.
                             </p>
                             
                         </div>
-                        <div class="col-4">
-                           <img src="https://via.placeholder.com/300x400">
+                        <div class="col-lg-4 col-sm-12">
+                           <img src="assets/images/self.jpg" alt="Self Portrait of Amanda">
                             
                         </div>
                     </div>
@@ -80,29 +80,74 @@
             <!--Photography Content-->
             <div class="col-lg-2 col-md-2 col-sm-2 text-center photoDiv">
                 <p class="photoTxt titlePosition">Photography</p>
-                <p class="photoContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum ligula
-                    nisl, ut venenatis diam ultricies non. Donec sagittis, dui tempus suscipit ornare, metus nulla
-                    tempor diam, et convallis diam nisl nec metus. Ut ac sapien id enim dapibus tempor. Nulla facilisi.
-                    Quisque fermentum justo hendrerit aliquam euismod. Etiam lobortis consectetur magna, sed mattis
-                    velit feugiat eu. Etiam tempor, dolor ac aliquet aliquet, nulla nulla porttitor magna, vel eleifend
-                    tortor justo vel dolor. Etiam viverra laoreet magna, ac luctus nulla iaculis blandit. Vestibulum
-                    lacinia orci quis turpis bibendum molestie. Donec pulvinar velit eu facilisis scelerisque.
-                    <br>
-                    Sed tincidunt, nunc vel euismod fermentum, ligula nulla vehicula lorem, mollis fermentum ligula dui
-                    non enim. Sed et dapibus ante. Aenean maximus sem id nulla volutpat, at consequat augue sagittis.
-                    Aenean nisi ipsum, egestas eget pulvinar sed, dignissim ut neque. Cras ultrices libero risus, vel
-                    elementum arcu luctus quis. Aliquam sed iaculis nulla. Maecenas eget ex ac massa pretium lacinia
-                    quis ultricies ante. Aliquam viverra neque felis, nec fermentum purus tincidunt in. Suspendisse
-                    egestas ante non turpis sodales elementum.
-                    <br>
-                    Aliquam erat volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
-                    turpis egestas. Fusce egestas id est congue efficitur. Maecenas at arcu id augue luctus vestibulum.
-                    Nunc pellentesque elit elit, sit amet maximus velit sollicitudin eget. Morbi fermentum efficitur
-                    faucibus. Ut dignissim vehicula sem. Praesent semper eleifend sagittis. Nunc venenatis, est sit amet
-                    consequat elementum, sem erat viverra sapien, ornare hendrerit nisl mi at ex. Etiam iaculis ligula
-                    at turpis condimentum tempus. Pellentesque dui enim, rutrum lobortis dolor a, volutpat ultrices
-                    justo.
-                </p>
+                <div class="photoContent">
+                    <!--Photo Carousel-->
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                                <div id="carouselExampleIndicators" class="carousel slide justify-content-center" data-bs-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                                    </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active photoCarousel">
+                                        <img src="assets/images/coastwaterway/IMG_6252 (1).jpg" class="d-block w-100 h-100" alt="Image of a Blue Sunset over a coastal waterway">
+                                    </div>
+                                <div class="carousel-item photoCarousel">
+                                    <img src="assets/images/grayson/Grayson-5.jpg" class="d-block w-100 h-100" alt="Image of a Wild Pony from Grayson Highlands Scratching their hoof">
+                                </div>
+                                <div class="carousel-item photoCarousel">
+                                    <img src="assets/images/appwaterway/IMG_4631.jpg" class="d-block  h-100" alt="Image of a Frozen Waterfall from Appalachia">
+                                </div>
+                                <div class="carousel-item photoCarousel">
+                                    <img src="assets/images/domesticated/Grayson-2.jpg" class="d-block w-100 h-100" alt="Image of 2 Pet rats eating out of dog bowls together">
+                                </div>
+                                <div class="carousel-item photoCarousel">
+                                    <img src="assets/images/coastwaterway/contactbg.jpg" class="d-block w-100 h-100" alt="Image of a dark sunset over a marsh">
+                                </div>
+                                <div class="carousel-item photoCarousel">
+                                    <img src="assets/images/appwaterway/IMG_4656.jpg" class="d-block h-100" alt="Image of a snowy water landscape in Appalachia">
+                                </div>
+                                <div class="carousel-item photoCarousel">
+                                    <img src="assets/images/grayson/Grayson-4.jpg" class="d-block w-100 h-100" alt="Image of a highlands landscape with a small herd of wild ponies">
+                                </div>
+                                <div class="carousel-item photoCarousel">
+                                    <img src="assets/images/domesticated/Grayson-1.jpg" class="d-block h-100" alt="Image of two goldfish being walked on a leash">
+                                </div>
+                            </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                                </a><br><br>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-12 col-md-4 text-center photoPrev">
+                            <img src="assets/images/grayson/horseheader.jpg" alt="Preview image of Horse Series"><br><b>Wild Ponies of Grayson Highlands</b><br>
+                            Grayson Highlands State Park in Virginia is home to a small herd of wild ponies. Their herd is dwindling, as many protections for wild equines and the environment are rescinded across North America. 
+                        </div>
+                        <div class="col-lg-3 col-sm-12 col-md-4 text-center photoPrev">
+                            <img src="assets/images/appwaterway/appheader.jpg" alt="Preview image of Appalachian Waterway Series"><br><b>Appalachian Waterways</b><br>
+                            Large format analog cameras allowed me to capture the stunning detail of frozen waterways in Appalachia. The preservation of these mountain waterways is crucial to the health of our oceans. Unfortunately, much of Appalachian representation in the media is negative. I hope to share the natural beauty it has to offer with this series.
+                        </div>
+                        <div class="col-lg-3 col-sm-12 col-md-4 text-center photoPrev">
+                            <img src="assets/images/coastwaterway/coastheader.jpg" alt="Preview image of Coastal Waterway Series"><br><b>Coastal Waterways</b><br>
+                            Coastal waterways such as bays are extremely important to the health of the ocean. Marshes act as filters for inland streams, where they flow to rivers, bays, and then oceans. I documented the sunsets I experienced while working with AmeriCorps to educate the community on the health of coastal water.
+                        </div>
+                        <div class="col-lg-3 col-sm-12 col-md-4 text-center photoPrev">
+                            <img src="assets/images/domesticated/domheader.jpg" alt="Preview image of Domesticated Animals Series"><br><b>Small Animals</b><br>
+                            While in college, I had the opportunity to explore concepts and implement them in a studio. This series challenges the notion that small animals are "easier" or "deserve less care" than the average dog & cat. 
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
             <!--Code Content-->
             <div class="col-lg-2 col-md-2 col-sm-2 text-center codeDiv">

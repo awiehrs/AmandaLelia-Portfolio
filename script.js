@@ -15,12 +15,13 @@ $(document).ready(function() {
         $(".aboutContent").fadeIn(4000);
         $(".aboutDiv").addClass("boxWidth");
         $(".aboutDiv").show();
+        $(".aboutDiv").removeClass("text-center");
     };
     
     function photoInit(e) {
         e.preventDefault();
         $(".frontImg").slideUp(1050);
-        $(".photoDiv").animate({width: '100%', opacity: '0.8'}, 2000);
+        $(".photoDiv").animate({width: '100%'}, 2000);
         $(".aboutDiv").hide(300);
         $(".codeDiv").hide(300);
         $(".contactContent").hide();
