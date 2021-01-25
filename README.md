@@ -12,5 +12,5 @@ Deployed link: [https://awiehrs.github.io/AmandaLelia-Portfolio/]
 
 ### Screenshot of Deployed Page
 
-![screenshots](assets/screenshots/Amanda Lelia-Portfolio.gif  "Desktop Screenshot")
+![screenshots]( assets/screenshots/AmandaLelia-Portfolio.gif  "Desktop Screenshot")
 
