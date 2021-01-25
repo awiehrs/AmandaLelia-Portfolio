@@ -8,7 +8,7 @@ $(document).ready(function() {
     function aboutInit(e) {
         e.preventDefault();
         $(".frontImg").slideUp(1050);
-        $(".aboutDiv").animate({width: '100%', opacity: '0.8'}, 2000);
+        $(".aboutDiv").animate({width: '100%'}, 2000);
         $(".photoDiv").hide(300);
         $(".codeDiv").hide(300);
         $(".contactContent").hide();
@@ -35,7 +35,7 @@ $(document).ready(function() {
     function codeInit(e) {
         e.preventDefault();
         $(".frontImg").slideUp(1050);
-        $(".codeDiv").animate({width: '100%', opacity: '0.8'}, 2000);
+        $(".codeDiv").animate({width: '100%'}, 2000);
         $(".photoDiv").hide(300);
         $(".aboutDiv").hide(300);
         $(".contactContent").hide();

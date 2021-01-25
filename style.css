@@ -106,6 +106,10 @@ body {
     display: none;
 }
 
+.codeApps img {
+    width: 100%;
+}
+
 .contactContent {
     display: none;
     max-width: 63%;
@@ -118,3 +122,10 @@ body {
     min-height: 18vh;
 }
 
+a {
+    color: #9a432e;
+}
+
+a:hover {
+    color: #292929;
+}
