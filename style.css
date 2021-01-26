@@ -76,6 +76,7 @@ body {
 
 .photoCarousel img {
     width: auto;
+    max-width: 450px;
     height: 225px;
     max-height: 305px;
 }
@@ -117,6 +118,10 @@ body {
     background-image: url("assets/images/contactBg-2.png");
     background-size: cover;
     height: 100%;
+}
+
+.contactMeLinks {
+    background-color: #e4e4e4;
 }
 
 .spaceHolder{

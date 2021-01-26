@@ -5,6 +5,9 @@ $(document).ready(function() {
     var codeLink = $(".codeBtn")
     var nameLink = $(".nameHead")
     var contactLink = $(".contactBtn")
+    var aboutTxt = $(".myTitle")
+    var photoTxt = $(".photoTxt")
+    var codeTxt = $(".codeTxt")
 
     //functions for making different sections appear
 
@@ -68,8 +71,11 @@ $(document).ready(function() {
     //callbacks for functions
   
     $(aboutLink).click(aboutInit);
+    $(aboutTxt).click(aboutInit);
     $(photoLink).click(photoInit);
+    $(photoTxt).click(photoInit);
     $(codeLink).click(codeInit);
+    $(codeTxt).click(codeInit);
     $(nameLink).click(resetLanding);
     $(contactLink).click(contactInit);
 
